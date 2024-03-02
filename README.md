@@ -13,12 +13,12 @@ pip install pybraille
 ## Usage
 
 ```python
-from pybraille import convertText
+from pybraille import convertText, convertFile
 
 print(convertText("hello"))
 >>> ⠓⠑⠇⠇⠕
 
-print(convertText("filename.txt")) #eg: tests/sample.txt
+print(convertFile("filename.txt")) #eg: tests/sample.txt
 >>> ⠠⠞⠓⠊⠎ ⠙⠊⠗⠑⠉⠞⠕⠗⠽ ⠉⠕⠝⠞⠁⠊⠝⠎ ⠞⠑⠎⠞ ⠋⠊⠇⠑⠎⠲
 ```
 
